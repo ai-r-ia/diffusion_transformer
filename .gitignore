@@ -1,4 +1,10 @@
-.pt
-.pth
-.npy
-./sample*
+*.pt
+*.pth
+*.npy
+/sample*/
+/checkpoints/
+/fid_data/
+__pycache__/
+*.log
+venv/
+.ipynb_checkpoints/
