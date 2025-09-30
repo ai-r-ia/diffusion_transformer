@@ -1,0 +1,18 @@
+2025-09-29 15:48:00,338 - DiT_Trainer - INFO - Starting training on device: mps
+2025-09-29 15:48:00,339 - DiT_Trainer - INFO - Configuration: Epochs=80, BatchSize=8, LR=0.0001
+2025-09-29 15:48:00,614 - DiT_Trainer - INFO - Successfully resumed training from checkpoint: ./checkpoints/dit_ckpt_epoch_40.pt
+2025-09-29 15:48:00,614 - DiT_Trainer - INFO - Continuing from Epoch 41...
+2025-09-29 15:48:00,614 - DiT_Trainer - INFO - Starting full CFG training run for 80 epochs.
+2025-09-29 15:48:00,614 - DiT_Trainer - INFO - --- Epoch 41/80 ---
+2025-09-29 15:49:54,776 - DiT_Trainer - INFO - Epoch 41 finished. Avg Loss: 0.9951
+2025-09-29 15:49:54,777 - DiT_Trainer - INFO - --- Epoch 42/80 ---
+2025-09-29 15:51:31,011 - DiT_Trainer - INFO - Epoch 42 finished. Avg Loss: 0.9944
+2025-09-29 15:51:31,013 - DiT_Trainer - INFO - --- Epoch 43/80 ---
+2025-09-29 15:53:07,041 - DiT_Trainer - INFO - Epoch 43 finished. Avg Loss: 0.9947
+2025-09-29 15:53:07,042 - DiT_Trainer - INFO - --- Epoch 44/80 ---
+2025-09-29 15:54:51,068 - DiT_Trainer - INFO - Epoch 44 finished. Avg Loss: 0.9953
+2025-09-29 15:54:51,070 - DiT_Trainer - INFO - --- Epoch 45/80 ---
+2025-09-29 15:56:18,604 - DiT_Trainer - INFO - Epoch 45 finished. Avg Loss: 0.9947
+2025-09-29 15:56:18,605 - DiT_Trainer - INFO - --- Epoch 46/80 ---
+2025-09-29 15:57:48,569 - DiT_Trainer - INFO - Epoch 46 finished. Avg Loss: 0.9945
+2025-09-29 15:57:48,572 - DiT_Trainer - INFO - --- Epoch 47/80 ---

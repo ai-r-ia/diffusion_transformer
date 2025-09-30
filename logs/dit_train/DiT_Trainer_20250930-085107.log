@@ -1,0 +1,538 @@
+2025-09-30 08:51:07,799 - DiT_Trainer - INFO - Starting training on device: mps
+2025-09-30 08:51:07,800 - DiT_Trainer - INFO - Configuration: Epochs=350, BatchSize=8, LR=0.0003
+2025-09-30 08:51:30,851 - DiT_Trainer - INFO - VAE Loaded. Pixel Size: 32x32, Latent Size: 4x4
+2025-09-30 08:51:30,913 - DiT_Trainer - INFO - Starting full CFG training run for 350 epochs.
+2025-09-30 08:51:30,914 - DiT_Trainer - INFO - --- Epoch 1/350 ---
+2025-09-30 08:53:38,442 - DiT_Trainer - INFO - Epoch 1 finished. Avg Loss: 0.5706 | Current LR: 2.999260e-04
+2025-09-30 08:53:38,443 - DiT_Trainer - INFO - --- Epoch 2/350 ---
+2025-09-30 08:55:39,493 - DiT_Trainer - INFO - Epoch 2 finished. Avg Loss: 0.4333 | Current LR: 2.997041e-04
+2025-09-30 08:55:39,495 - DiT_Trainer - INFO - --- Epoch 3/350 ---
+2025-09-30 08:57:39,999 - DiT_Trainer - INFO - Epoch 3 finished. Avg Loss: 0.4101 | Current LR: 2.993345e-04
+2025-09-30 08:57:40,000 - DiT_Trainer - INFO - --- Epoch 4/350 ---
+2025-09-30 08:59:40,618 - DiT_Trainer - INFO - Epoch 4 finished. Avg Loss: 0.4004 | Current LR: 2.988176e-04
+2025-09-30 08:59:40,619 - DiT_Trainer - INFO - --- Epoch 5/350 ---
+2025-09-30 09:01:41,340 - DiT_Trainer - INFO - Epoch 5 finished. Avg Loss: 0.3977 | Current LR: 2.981539e-04
+2025-09-30 09:01:41,342 - DiT_Trainer - INFO - --- Epoch 6/350 ---
+2025-09-30 09:03:41,681 - DiT_Trainer - INFO - Epoch 6 finished. Avg Loss: 0.3861 | Current LR: 2.973440e-04
+2025-09-30 09:03:41,682 - DiT_Trainer - INFO - --- Epoch 7/350 ---
+2025-09-30 09:05:43,138 - DiT_Trainer - INFO - Epoch 7 finished. Avg Loss: 0.3832 | Current LR: 2.963887e-04
+2025-09-30 09:05:43,139 - DiT_Trainer - INFO - --- Epoch 8/350 ---
+2025-09-30 09:07:44,238 - DiT_Trainer - INFO - Epoch 8 finished. Avg Loss: 0.3767 | Current LR: 2.952890e-04
+2025-09-30 09:07:44,239 - DiT_Trainer - INFO - --- Epoch 9/350 ---
+2025-09-30 09:09:45,530 - DiT_Trainer - INFO - Epoch 9 finished. Avg Loss: 0.3826 | Current LR: 2.940460e-04
+2025-09-30 09:09:45,531 - DiT_Trainer - INFO - --- Epoch 10/350 ---
+2025-09-30 09:11:45,999 - DiT_Trainer - INFO - Epoch 10 finished. Avg Loss: 0.3786 | Current LR: 2.926609e-04
+2025-09-30 09:11:46,188 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_10.pt
+2025-09-30 09:11:46,188 - DiT_Trainer - INFO - --- Epoch 11/350 ---
+2025-09-30 09:13:45,312 - DiT_Trainer - INFO - Epoch 11 finished. Avg Loss: 0.3765 | Current LR: 2.911351e-04
+2025-09-30 09:13:45,314 - DiT_Trainer - INFO - --- Epoch 12/350 ---
+2025-09-30 09:15:44,830 - DiT_Trainer - INFO - Epoch 12 finished. Avg Loss: 0.3777 | Current LR: 2.894700e-04
+2025-09-30 09:15:44,831 - DiT_Trainer - INFO - --- Epoch 13/350 ---
+2025-09-30 09:17:44,040 - DiT_Trainer - INFO - Epoch 13 finished. Avg Loss: 0.3741 | Current LR: 2.876673e-04
+2025-09-30 09:17:44,041 - DiT_Trainer - INFO - --- Epoch 14/350 ---
+2025-09-30 09:19:42,939 - DiT_Trainer - INFO - Epoch 14 finished. Avg Loss: 0.3780 | Current LR: 2.857288e-04
+2025-09-30 09:19:42,941 - DiT_Trainer - INFO - --- Epoch 15/350 ---
+2025-09-30 09:21:41,569 - DiT_Trainer - INFO - Epoch 15 finished. Avg Loss: 0.3747 | Current LR: 2.836564e-04
+2025-09-30 09:21:41,571 - DiT_Trainer - INFO - --- Epoch 16/350 ---
+2025-09-30 09:23:40,568 - DiT_Trainer - INFO - Epoch 16 finished. Avg Loss: 0.3672 | Current LR: 2.814522e-04
+2025-09-30 09:23:40,570 - DiT_Trainer - INFO - --- Epoch 17/350 ---
+2025-09-30 09:25:39,453 - DiT_Trainer - INFO - Epoch 17 finished. Avg Loss: 0.3734 | Current LR: 2.791183e-04
+2025-09-30 09:25:39,454 - DiT_Trainer - INFO - --- Epoch 18/350 ---
+2025-09-30 09:27:37,604 - DiT_Trainer - INFO - Epoch 18 finished. Avg Loss: 0.3769 | Current LR: 2.766570e-04
+2025-09-30 09:27:37,606 - DiT_Trainer - INFO - --- Epoch 19/350 ---
+2025-09-30 09:29:36,165 - DiT_Trainer - INFO - Epoch 19 finished. Avg Loss: 0.3748 | Current LR: 2.740707e-04
+2025-09-30 09:29:36,167 - DiT_Trainer - INFO - --- Epoch 20/350 ---
+2025-09-30 09:31:35,765 - DiT_Trainer - INFO - Epoch 20 finished. Avg Loss: 0.3706 | Current LR: 2.713621e-04
+2025-09-30 09:31:35,977 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_20.pt
+2025-09-30 09:31:35,978 - DiT_Trainer - INFO - --- Epoch 21/350 ---
+2025-09-30 09:33:34,851 - DiT_Trainer - INFO - Epoch 21 finished. Avg Loss: 0.3633 | Current LR: 2.685337e-04
+2025-09-30 09:33:34,852 - DiT_Trainer - INFO - --- Epoch 22/350 ---
+2025-09-30 09:35:33,882 - DiT_Trainer - INFO - Epoch 22 finished. Avg Loss: 0.3756 | Current LR: 2.655885e-04
+2025-09-30 09:35:33,884 - DiT_Trainer - INFO - --- Epoch 23/350 ---
+2025-09-30 09:37:32,085 - DiT_Trainer - INFO - Epoch 23 finished. Avg Loss: 0.3852 | Current LR: 2.625292e-04
+2025-09-30 09:37:32,086 - DiT_Trainer - INFO - --- Epoch 24/350 ---
+2025-09-30 09:39:30,548 - DiT_Trainer - INFO - Epoch 24 finished. Avg Loss: 0.3636 | Current LR: 2.593588e-04
+2025-09-30 09:39:30,552 - DiT_Trainer - INFO - --- Epoch 25/350 ---
+2025-09-30 09:41:29,658 - DiT_Trainer - INFO - Epoch 25 finished. Avg Loss: 0.3564 | Current LR: 2.560807e-04
+2025-09-30 09:41:29,660 - DiT_Trainer - INFO - --- Epoch 26/350 ---
+2025-09-30 09:43:28,600 - DiT_Trainer - INFO - Epoch 26 finished. Avg Loss: 0.3656 | Current LR: 2.526978e-04
+2025-09-30 09:43:28,601 - DiT_Trainer - INFO - --- Epoch 27/350 ---
+2025-09-30 09:45:27,360 - DiT_Trainer - INFO - Epoch 27 finished. Avg Loss: 0.3608 | Current LR: 2.492137e-04
+2025-09-30 09:45:27,361 - DiT_Trainer - INFO - --- Epoch 28/350 ---
+2025-09-30 09:47:25,826 - DiT_Trainer - INFO - Epoch 28 finished. Avg Loss: 0.3601 | Current LR: 2.456317e-04
+2025-09-30 09:47:25,828 - DiT_Trainer - INFO - --- Epoch 29/350 ---
+2025-09-30 09:49:25,498 - DiT_Trainer - INFO - Epoch 29 finished. Avg Loss: 0.3552 | Current LR: 2.419554e-04
+2025-09-30 09:49:25,500 - DiT_Trainer - INFO - --- Epoch 30/350 ---
+2025-09-30 09:51:24,186 - DiT_Trainer - INFO - Epoch 30 finished. Avg Loss: 0.3539 | Current LR: 2.381884e-04
+2025-09-30 09:51:24,370 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_30.pt
+2025-09-30 09:51:24,370 - DiT_Trainer - INFO - --- Epoch 31/350 ---
+2025-09-30 09:53:23,447 - DiT_Trainer - INFO - Epoch 31 finished. Avg Loss: 0.3561 | Current LR: 2.343344e-04
+2025-09-30 09:53:23,449 - DiT_Trainer - INFO - --- Epoch 32/350 ---
+2025-09-30 09:55:22,664 - DiT_Trainer - INFO - Epoch 32 finished. Avg Loss: 0.3463 | Current LR: 2.303972e-04
+2025-09-30 09:55:22,665 - DiT_Trainer - INFO - --- Epoch 33/350 ---
+2025-09-30 09:57:21,989 - DiT_Trainer - INFO - Epoch 33 finished. Avg Loss: 0.3538 | Current LR: 2.263808e-04
+2025-09-30 09:57:21,991 - DiT_Trainer - INFO - --- Epoch 34/350 ---
+2025-09-30 09:59:20,621 - DiT_Trainer - INFO - Epoch 34 finished. Avg Loss: 0.3552 | Current LR: 2.222890e-04
+2025-09-30 09:59:20,623 - DiT_Trainer - INFO - --- Epoch 35/350 ---
+2025-09-30 10:01:19,865 - DiT_Trainer - INFO - Epoch 35 finished. Avg Loss: 0.3552 | Current LR: 2.181259e-04
+2025-09-30 10:01:19,866 - DiT_Trainer - INFO - --- Epoch 36/350 ---
+2025-09-30 10:03:18,250 - DiT_Trainer - INFO - Epoch 36 finished. Avg Loss: 0.3612 | Current LR: 2.138956e-04
+2025-09-30 10:03:18,260 - DiT_Trainer - INFO - --- Epoch 37/350 ---
+2025-09-30 10:05:17,132 - DiT_Trainer - INFO - Epoch 37 finished. Avg Loss: 0.3547 | Current LR: 2.096023e-04
+2025-09-30 10:05:17,134 - DiT_Trainer - INFO - --- Epoch 38/350 ---
+2025-09-30 10:07:16,272 - DiT_Trainer - INFO - Epoch 38 finished. Avg Loss: 0.3487 | Current LR: 2.052503e-04
+2025-09-30 10:07:16,274 - DiT_Trainer - INFO - --- Epoch 39/350 ---
+2025-09-30 10:09:15,146 - DiT_Trainer - INFO - Epoch 39 finished. Avg Loss: 0.3497 | Current LR: 2.008438e-04
+2025-09-30 10:09:15,148 - DiT_Trainer - INFO - --- Epoch 40/350 ---
+2025-09-30 10:11:14,454 - DiT_Trainer - INFO - Epoch 40 finished. Avg Loss: 0.3483 | Current LR: 1.963871e-04
+2025-09-30 10:11:14,653 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_40.pt
+2025-09-30 10:11:14,653 - DiT_Trainer - INFO - --- Epoch 41/350 ---
+2025-09-30 10:13:14,326 - DiT_Trainer - INFO - Epoch 41 finished. Avg Loss: 0.3416 | Current LR: 1.918847e-04
+2025-09-30 10:13:14,327 - DiT_Trainer - INFO - --- Epoch 42/350 ---
+2025-09-30 10:15:13,845 - DiT_Trainer - INFO - Epoch 42 finished. Avg Loss: 0.3445 | Current LR: 1.873410e-04
+2025-09-30 10:15:13,846 - DiT_Trainer - INFO - --- Epoch 43/350 ---
+2025-09-30 10:17:12,384 - DiT_Trainer - INFO - Epoch 43 finished. Avg Loss: 0.3542 | Current LR: 1.827606e-04
+2025-09-30 10:17:12,386 - DiT_Trainer - INFO - --- Epoch 44/350 ---
+2025-09-30 10:19:11,190 - DiT_Trainer - INFO - Epoch 44 finished. Avg Loss: 0.3458 | Current LR: 1.781478e-04
+2025-09-30 10:19:11,192 - DiT_Trainer - INFO - --- Epoch 45/350 ---
+2025-09-30 10:21:10,103 - DiT_Trainer - INFO - Epoch 45 finished. Avg Loss: 0.3439 | Current LR: 1.735073e-04
+2025-09-30 10:21:10,105 - DiT_Trainer - INFO - --- Epoch 46/350 ---
+2025-09-30 10:23:08,565 - DiT_Trainer - INFO - Epoch 46 finished. Avg Loss: 0.3328 | Current LR: 1.688437e-04
+2025-09-30 10:23:08,567 - DiT_Trainer - INFO - --- Epoch 47/350 ---
+2025-09-30 10:25:08,089 - DiT_Trainer - INFO - Epoch 47 finished. Avg Loss: 0.3434 | Current LR: 1.641615e-04
+2025-09-30 10:25:08,091 - DiT_Trainer - INFO - --- Epoch 48/350 ---
+2025-09-30 10:27:07,435 - DiT_Trainer - INFO - Epoch 48 finished. Avg Loss: 0.3384 | Current LR: 1.594654e-04
+2025-09-30 10:27:07,436 - DiT_Trainer - INFO - --- Epoch 49/350 ---
+2025-09-30 10:29:06,772 - DiT_Trainer - INFO - Epoch 49 finished. Avg Loss: 0.3379 | Current LR: 1.547600e-04
+2025-09-30 10:29:06,775 - DiT_Trainer - INFO - --- Epoch 50/350 ---
+2025-09-30 10:31:05,418 - DiT_Trainer - INFO - Epoch 50 finished. Avg Loss: 0.3388 | Current LR: 1.500500e-04
+2025-09-30 10:31:05,622 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_50.pt
+2025-09-30 10:31:05,623 - DiT_Trainer - INFO - --- Epoch 51/350 ---
+2025-09-30 10:33:04,517 - DiT_Trainer - INFO - Epoch 51 finished. Avg Loss: 0.3339 | Current LR: 1.453400e-04
+2025-09-30 10:33:04,518 - DiT_Trainer - INFO - --- Epoch 52/350 ---
+2025-09-30 10:35:03,887 - DiT_Trainer - INFO - Epoch 52 finished. Avg Loss: 0.3334 | Current LR: 1.406346e-04
+2025-09-30 10:35:03,888 - DiT_Trainer - INFO - --- Epoch 53/350 ---
+2025-09-30 10:37:03,597 - DiT_Trainer - INFO - Epoch 53 finished. Avg Loss: 0.3326 | Current LR: 1.359385e-04
+2025-09-30 10:37:03,599 - DiT_Trainer - INFO - --- Epoch 54/350 ---
+2025-09-30 10:39:03,130 - DiT_Trainer - INFO - Epoch 54 finished. Avg Loss: 0.3391 | Current LR: 1.312563e-04
+2025-09-30 10:39:03,132 - DiT_Trainer - INFO - --- Epoch 55/350 ---
+2025-09-30 10:41:01,646 - DiT_Trainer - INFO - Epoch 55 finished. Avg Loss: 0.3345 | Current LR: 1.265927e-04
+2025-09-30 10:41:01,647 - DiT_Trainer - INFO - --- Epoch 56/350 ---
+2025-09-30 10:43:00,587 - DiT_Trainer - INFO - Epoch 56 finished. Avg Loss: 0.3364 | Current LR: 1.219522e-04
+2025-09-30 10:43:00,589 - DiT_Trainer - INFO - --- Epoch 57/350 ---
+2025-09-30 10:45:00,130 - DiT_Trainer - INFO - Epoch 57 finished. Avg Loss: 0.3241 | Current LR: 1.173394e-04
+2025-09-30 10:45:00,131 - DiT_Trainer - INFO - --- Epoch 58/350 ---
+2025-09-30 10:46:59,300 - DiT_Trainer - INFO - Epoch 58 finished. Avg Loss: 0.3340 | Current LR: 1.127590e-04
+2025-09-30 10:46:59,302 - DiT_Trainer - INFO - --- Epoch 59/350 ---
+2025-09-30 10:48:58,562 - DiT_Trainer - INFO - Epoch 59 finished. Avg Loss: 0.3236 | Current LR: 1.082153e-04
+2025-09-30 10:48:58,563 - DiT_Trainer - INFO - --- Epoch 60/350 ---
+2025-09-30 10:50:57,645 - DiT_Trainer - INFO - Epoch 60 finished. Avg Loss: 0.3316 | Current LR: 1.037129e-04
+2025-09-30 10:50:57,831 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_60.pt
+2025-09-30 10:50:57,831 - DiT_Trainer - INFO - --- Epoch 61/350 ---
+2025-09-30 10:52:56,977 - DiT_Trainer - INFO - Epoch 61 finished. Avg Loss: 0.3278 | Current LR: 9.925625e-05
+2025-09-30 10:52:56,978 - DiT_Trainer - INFO - --- Epoch 62/350 ---
+2025-09-30 10:54:56,512 - DiT_Trainer - INFO - Epoch 62 finished. Avg Loss: 0.3244 | Current LR: 9.484972e-05
+2025-09-30 10:54:56,514 - DiT_Trainer - INFO - --- Epoch 63/350 ---
+2025-09-30 10:57:00,901 - DiT_Trainer - INFO - Epoch 63 finished. Avg Loss: 0.3302 | Current LR: 9.049767e-05
+2025-09-30 10:57:00,902 - DiT_Trainer - INFO - --- Epoch 64/350 ---
+2025-09-30 10:59:00,267 - DiT_Trainer - INFO - Epoch 64 finished. Avg Loss: 0.3272 | Current LR: 8.620440e-05
+2025-09-30 10:59:00,268 - DiT_Trainer - INFO - --- Epoch 65/350 ---
+2025-09-30 11:00:59,265 - DiT_Trainer - INFO - Epoch 65 finished. Avg Loss: 0.3279 | Current LR: 8.197412e-05
+2025-09-30 11:00:59,267 - DiT_Trainer - INFO - --- Epoch 66/350 ---
+2025-09-30 11:02:57,437 - DiT_Trainer - INFO - Epoch 66 finished. Avg Loss: 0.3198 | Current LR: 7.781104e-05
+2025-09-30 11:02:57,438 - DiT_Trainer - INFO - --- Epoch 67/350 ---
+2025-09-30 11:04:55,866 - DiT_Trainer - INFO - Epoch 67 finished. Avg Loss: 0.3211 | Current LR: 7.371924e-05
+2025-09-30 11:04:55,867 - DiT_Trainer - INFO - --- Epoch 68/350 ---
+2025-09-30 11:06:55,494 - DiT_Trainer - INFO - Epoch 68 finished. Avg Loss: 0.3302 | Current LR: 6.970277e-05
+2025-09-30 11:06:55,496 - DiT_Trainer - INFO - --- Epoch 69/350 ---
+2025-09-30 11:08:55,018 - DiT_Trainer - INFO - Epoch 69 finished. Avg Loss: 0.3201 | Current LR: 6.576560e-05
+2025-09-30 11:08:55,020 - DiT_Trainer - INFO - --- Epoch 70/350 ---
+2025-09-30 11:10:54,624 - DiT_Trainer - INFO - Epoch 70 finished. Avg Loss: 0.3263 | Current LR: 6.191160e-05
+2025-09-30 11:10:54,803 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_70.pt
+2025-09-30 11:10:54,803 - DiT_Trainer - INFO - --- Epoch 71/350 ---
+2025-09-30 11:12:53,999 - DiT_Trainer - INFO - Epoch 71 finished. Avg Loss: 0.3103 | Current LR: 5.814459e-05
+2025-09-30 11:12:54,001 - DiT_Trainer - INFO - --- Epoch 72/350 ---
+2025-09-30 11:14:53,690 - DiT_Trainer - INFO - Epoch 72 finished. Avg Loss: 0.3300 | Current LR: 5.446827e-05
+2025-09-30 11:14:53,692 - DiT_Trainer - INFO - --- Epoch 73/350 ---
+2025-09-30 11:16:53,353 - DiT_Trainer - INFO - Epoch 73 finished. Avg Loss: 0.3194 | Current LR: 5.088629e-05
+2025-09-30 11:16:53,355 - DiT_Trainer - INFO - --- Epoch 74/350 ---
+2025-09-30 11:18:54,378 - DiT_Trainer - INFO - Epoch 74 finished. Avg Loss: 0.3215 | Current LR: 4.740216e-05
+2025-09-30 11:18:54,379 - DiT_Trainer - INFO - --- Epoch 75/350 ---
+2025-09-30 11:20:52,731 - DiT_Trainer - INFO - Epoch 75 finished. Avg Loss: 0.3300 | Current LR: 4.401934e-05
+2025-09-30 11:20:52,733 - DiT_Trainer - INFO - --- Epoch 76/350 ---
+2025-09-30 11:22:50,785 - DiT_Trainer - INFO - Epoch 76 finished. Avg Loss: 0.3153 | Current LR: 4.074115e-05
+2025-09-30 11:22:50,786 - DiT_Trainer - INFO - --- Epoch 77/350 ---
+2025-09-30 11:24:50,052 - DiT_Trainer - INFO - Epoch 77 finished. Avg Loss: 0.3172 | Current LR: 3.757085e-05
+2025-09-30 11:24:50,054 - DiT_Trainer - INFO - --- Epoch 78/350 ---
+2025-09-30 11:26:48,953 - DiT_Trainer - INFO - Epoch 78 finished. Avg Loss: 0.3186 | Current LR: 3.451154e-05
+2025-09-30 11:26:48,955 - DiT_Trainer - INFO - --- Epoch 79/350 ---
+2025-09-30 11:28:48,080 - DiT_Trainer - INFO - Epoch 79 finished. Avg Loss: 0.3190 | Current LR: 3.156626e-05
+2025-09-30 11:28:48,082 - DiT_Trainer - INFO - --- Epoch 80/350 ---
+2025-09-30 11:30:47,368 - DiT_Trainer - INFO - Epoch 80 finished. Avg Loss: 0.3211 | Current LR: 2.873790e-05
+2025-09-30 11:30:47,558 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_80.pt
+2025-09-30 11:30:47,558 - DiT_Trainer - INFO - --- Epoch 81/350 ---
+2025-09-30 11:32:47,021 - DiT_Trainer - INFO - Epoch 81 finished. Avg Loss: 0.3232 | Current LR: 2.602927e-05
+2025-09-30 11:32:47,023 - DiT_Trainer - INFO - --- Epoch 82/350 ---
+2025-09-30 11:34:46,119 - DiT_Trainer - INFO - Epoch 82 finished. Avg Loss: 0.3190 | Current LR: 2.344303e-05
+2025-09-30 11:34:46,120 - DiT_Trainer - INFO - --- Epoch 83/350 ---
+2025-09-30 11:36:45,141 - DiT_Trainer - INFO - Epoch 83 finished. Avg Loss: 0.3143 | Current LR: 2.098173e-05
+2025-09-30 11:36:45,143 - DiT_Trainer - INFO - --- Epoch 84/350 ---
+2025-09-30 11:38:43,579 - DiT_Trainer - INFO - Epoch 84 finished. Avg Loss: 0.3225 | Current LR: 1.864781e-05
+2025-09-30 11:38:43,581 - DiT_Trainer - INFO - --- Epoch 85/350 ---
+2025-09-30 11:40:42,682 - DiT_Trainer - INFO - Epoch 85 finished. Avg Loss: 0.3227 | Current LR: 1.644357e-05
+2025-09-30 11:40:42,684 - DiT_Trainer - INFO - --- Epoch 86/350 ---
+2025-09-30 11:42:41,659 - DiT_Trainer - INFO - Epoch 86 finished. Avg Loss: 0.3183 | Current LR: 1.437118e-05
+2025-09-30 11:42:41,661 - DiT_Trainer - INFO - --- Epoch 87/350 ---
+2025-09-30 11:44:41,431 - DiT_Trainer - INFO - Epoch 87 finished. Avg Loss: 0.3122 | Current LR: 1.243269e-05
+2025-09-30 11:44:41,433 - DiT_Trainer - INFO - --- Epoch 88/350 ---
+2025-09-30 11:46:40,792 - DiT_Trainer - INFO - Epoch 88 finished. Avg Loss: 0.3182 | Current LR: 1.063002e-05
+2025-09-30 11:46:40,793 - DiT_Trainer - INFO - --- Epoch 89/350 ---
+2025-09-30 11:48:40,799 - DiT_Trainer - INFO - Epoch 89 finished. Avg Loss: 0.3196 | Current LR: 8.964929e-06
+2025-09-30 11:48:40,800 - DiT_Trainer - INFO - --- Epoch 90/350 ---
+2025-09-30 11:50:42,140 - DiT_Trainer - INFO - Epoch 90 finished. Avg Loss: 0.3136 | Current LR: 7.439075e-06
+2025-09-30 11:50:42,336 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_90.pt
+2025-09-30 11:50:42,337 - DiT_Trainer - INFO - --- Epoch 91/350 ---
+2025-09-30 11:52:40,870 - DiT_Trainer - INFO - Epoch 91 finished. Avg Loss: 0.3179 | Current LR: 6.053962e-06
+2025-09-30 11:52:40,871 - DiT_Trainer - INFO - --- Epoch 92/350 ---
+2025-09-30 11:54:41,390 - DiT_Trainer - INFO - Epoch 92 finished. Avg Loss: 0.3098 | Current LR: 4.810955e-06
+2025-09-30 11:54:41,392 - DiT_Trainer - INFO - --- Epoch 93/350 ---
+2025-09-30 11:56:40,192 - DiT_Trainer - INFO - Epoch 93 finished. Avg Loss: 0.3186 | Current LR: 3.711282e-06
+2025-09-30 11:56:40,193 - DiT_Trainer - INFO - --- Epoch 94/350 ---
+2025-09-30 11:58:39,890 - DiT_Trainer - INFO - Epoch 94 finished. Avg Loss: 0.3164 | Current LR: 2.756027e-06
+2025-09-30 11:58:39,891 - DiT_Trainer - INFO - --- Epoch 95/350 ---
+2025-09-30 12:00:38,703 - DiT_Trainer - INFO - Epoch 95 finished. Avg Loss: 0.3142 | Current LR: 1.946133e-06
+2025-09-30 12:00:38,704 - DiT_Trainer - INFO - --- Epoch 96/350 ---
+2025-09-30 12:02:37,989 - DiT_Trainer - INFO - Epoch 96 finished. Avg Loss: 0.3185 | Current LR: 1.282401e-06
+2025-09-30 12:02:37,991 - DiT_Trainer - INFO - --- Epoch 97/350 ---
+2025-09-30 12:04:37,493 - DiT_Trainer - INFO - Epoch 97 finished. Avg Loss: 0.3169 | Current LR: 7.654834e-07
+2025-09-30 12:04:37,494 - DiT_Trainer - INFO - --- Epoch 98/350 ---
+2025-09-30 12:06:37,236 - DiT_Trainer - INFO - Epoch 98 finished. Avg Loss: 0.3102 | Current LR: 3.958921e-07
+2025-09-30 12:06:37,237 - DiT_Trainer - INFO - --- Epoch 99/350 ---
+2025-09-30 12:08:36,599 - DiT_Trainer - INFO - Epoch 99 finished. Avg Loss: 0.3190 | Current LR: 1.739913e-07
+2025-09-30 12:08:36,601 - DiT_Trainer - INFO - --- Epoch 100/350 ---
+2025-09-30 12:10:35,740 - DiT_Trainer - INFO - Epoch 100 finished. Avg Loss: 0.3168 | Current LR: 1.000000e-07
+2025-09-30 12:10:35,930 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_100.pt
+2025-09-30 12:10:35,930 - DiT_Trainer - INFO - --- Epoch 101/350 ---
+2025-09-30 12:12:34,968 - DiT_Trainer - INFO - Epoch 101 finished. Avg Loss: 0.3146 | Current LR: 1.739913e-07
+2025-09-30 12:12:34,969 - DiT_Trainer - INFO - --- Epoch 102/350 ---
+2025-09-30 12:14:34,257 - DiT_Trainer - INFO - Epoch 102 finished. Avg Loss: 0.3143 | Current LR: 3.958921e-07
+2025-09-30 12:14:34,260 - DiT_Trainer - INFO - --- Epoch 103/350 ---
+2025-09-30 12:16:33,813 - DiT_Trainer - INFO - Epoch 103 finished. Avg Loss: 0.3160 | Current LR: 7.654834e-07
+2025-09-30 12:16:33,814 - DiT_Trainer - INFO - --- Epoch 104/350 ---
+2025-09-30 12:18:33,655 - DiT_Trainer - INFO - Epoch 104 finished. Avg Loss: 0.3176 | Current LR: 1.282401e-06
+2025-09-30 12:18:33,656 - DiT_Trainer - INFO - --- Epoch 105/350 ---
+2025-09-30 12:20:33,110 - DiT_Trainer - INFO - Epoch 105 finished. Avg Loss: 0.3192 | Current LR: 1.946133e-06
+2025-09-30 12:20:33,112 - DiT_Trainer - INFO - --- Epoch 106/350 ---
+2025-09-30 12:22:35,074 - DiT_Trainer - INFO - Epoch 106 finished. Avg Loss: 0.3060 | Current LR: 2.756027e-06
+2025-09-30 12:22:35,076 - DiT_Trainer - INFO - --- Epoch 107/350 ---
+2025-09-30 12:24:33,970 - DiT_Trainer - INFO - Epoch 107 finished. Avg Loss: 0.3102 | Current LR: 3.711282e-06
+2025-09-30 12:24:33,972 - DiT_Trainer - INFO - --- Epoch 108/350 ---
+2025-09-30 12:26:32,940 - DiT_Trainer - INFO - Epoch 108 finished. Avg Loss: 0.3243 | Current LR: 4.810955e-06
+2025-09-30 12:26:32,941 - DiT_Trainer - INFO - --- Epoch 109/350 ---
+2025-09-30 12:28:31,377 - DiT_Trainer - INFO - Epoch 109 finished. Avg Loss: 0.3129 | Current LR: 6.053962e-06
+2025-09-30 12:28:31,378 - DiT_Trainer - INFO - --- Epoch 110/350 ---
+2025-09-30 12:30:29,629 - DiT_Trainer - INFO - Epoch 110 finished. Avg Loss: 0.3137 | Current LR: 7.439075e-06
+2025-09-30 12:30:29,797 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_110.pt
+2025-09-30 12:30:29,797 - DiT_Trainer - INFO - --- Epoch 111/350 ---
+2025-09-30 12:32:34,285 - DiT_Trainer - INFO - Epoch 111 finished. Avg Loss: 0.3126 | Current LR: 8.964929e-06
+2025-09-30 12:32:34,286 - DiT_Trainer - INFO - --- Epoch 112/350 ---
+2025-09-30 12:34:33,352 - DiT_Trainer - INFO - Epoch 112 finished. Avg Loss: 0.3115 | Current LR: 1.063002e-05
+2025-09-30 12:34:33,354 - DiT_Trainer - INFO - --- Epoch 113/350 ---
+2025-09-30 12:36:33,077 - DiT_Trainer - INFO - Epoch 113 finished. Avg Loss: 0.3157 | Current LR: 1.243269e-05
+2025-09-30 12:36:33,080 - DiT_Trainer - INFO - --- Epoch 114/350 ---
+2025-09-30 12:38:32,039 - DiT_Trainer - INFO - Epoch 114 finished. Avg Loss: 0.3155 | Current LR: 1.437118e-05
+2025-09-30 12:38:32,041 - DiT_Trainer - INFO - --- Epoch 115/350 ---
+2025-09-30 12:40:31,453 - DiT_Trainer - INFO - Epoch 115 finished. Avg Loss: 0.3160 | Current LR: 1.644357e-05
+2025-09-30 12:40:31,454 - DiT_Trainer - INFO - --- Epoch 116/350 ---
+2025-09-30 12:42:31,371 - DiT_Trainer - INFO - Epoch 116 finished. Avg Loss: 0.3118 | Current LR: 1.864781e-05
+2025-09-30 12:42:31,372 - DiT_Trainer - INFO - --- Epoch 117/350 ---
+2025-09-30 12:44:31,189 - DiT_Trainer - INFO - Epoch 117 finished. Avg Loss: 0.3167 | Current LR: 2.098173e-05
+2025-09-30 12:44:31,190 - DiT_Trainer - INFO - --- Epoch 118/350 ---
+2025-09-30 12:46:31,103 - DiT_Trainer - INFO - Epoch 118 finished. Avg Loss: 0.3187 | Current LR: 2.344303e-05
+2025-09-30 12:46:31,105 - DiT_Trainer - INFO - --- Epoch 119/350 ---
+2025-09-30 12:48:32,048 - DiT_Trainer - INFO - Epoch 119 finished. Avg Loss: 0.3171 | Current LR: 2.602927e-05
+2025-09-30 12:48:32,050 - DiT_Trainer - INFO - --- Epoch 120/350 ---
+2025-09-30 12:50:33,188 - DiT_Trainer - INFO - Epoch 120 finished. Avg Loss: 0.3052 | Current LR: 2.873790e-05
+2025-09-30 12:50:33,385 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_120.pt
+2025-09-30 12:50:33,385 - DiT_Trainer - INFO - --- Epoch 121/350 ---
+2025-09-30 12:52:33,729 - DiT_Trainer - INFO - Epoch 121 finished. Avg Loss: 0.3138 | Current LR: 3.156626e-05
+2025-09-30 12:52:33,730 - DiT_Trainer - INFO - --- Epoch 122/350 ---
+2025-09-30 12:54:33,321 - DiT_Trainer - INFO - Epoch 122 finished. Avg Loss: 0.3147 | Current LR: 3.451154e-05
+2025-09-30 12:54:33,322 - DiT_Trainer - INFO - --- Epoch 123/350 ---
+2025-09-30 12:56:32,778 - DiT_Trainer - INFO - Epoch 123 finished. Avg Loss: 0.3165 | Current LR: 3.757085e-05
+2025-09-30 12:56:32,780 - DiT_Trainer - INFO - --- Epoch 124/350 ---
+2025-09-30 12:58:30,862 - DiT_Trainer - INFO - Epoch 124 finished. Avg Loss: 0.3210 | Current LR: 4.074115e-05
+2025-09-30 12:58:30,864 - DiT_Trainer - INFO - --- Epoch 125/350 ---
+2025-09-30 13:00:30,780 - DiT_Trainer - INFO - Epoch 125 finished. Avg Loss: 0.3118 | Current LR: 4.401934e-05
+2025-09-30 13:00:30,781 - DiT_Trainer - INFO - --- Epoch 126/350 ---
+2025-09-30 13:02:29,870 - DiT_Trainer - INFO - Epoch 126 finished. Avg Loss: 0.3187 | Current LR: 4.740216e-05
+2025-09-30 13:02:29,872 - DiT_Trainer - INFO - --- Epoch 127/350 ---
+2025-09-30 13:04:29,608 - DiT_Trainer - INFO - Epoch 127 finished. Avg Loss: 0.3144 | Current LR: 5.088629e-05
+2025-09-30 13:04:29,609 - DiT_Trainer - INFO - --- Epoch 128/350 ---
+2025-09-30 13:06:29,702 - DiT_Trainer - INFO - Epoch 128 finished. Avg Loss: 0.3150 | Current LR: 5.446827e-05
+2025-09-30 13:06:29,704 - DiT_Trainer - INFO - --- Epoch 129/350 ---
+2025-09-30 13:08:28,469 - DiT_Trainer - INFO - Epoch 129 finished. Avg Loss: 0.3028 | Current LR: 5.814459e-05
+2025-09-30 13:08:28,471 - DiT_Trainer - INFO - --- Epoch 130/350 ---
+2025-09-30 13:10:27,521 - DiT_Trainer - INFO - Epoch 130 finished. Avg Loss: 0.3157 | Current LR: 6.191160e-05
+2025-09-30 13:10:27,707 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_130.pt
+2025-09-30 13:10:27,707 - DiT_Trainer - INFO - --- Epoch 131/350 ---
+2025-09-30 13:12:26,984 - DiT_Trainer - INFO - Epoch 131 finished. Avg Loss: 0.3142 | Current LR: 6.576560e-05
+2025-09-30 13:12:26,986 - DiT_Trainer - INFO - --- Epoch 132/350 ---
+2025-09-30 13:14:27,013 - DiT_Trainer - INFO - Epoch 132 finished. Avg Loss: 0.3174 | Current LR: 6.970277e-05
+2025-09-30 13:14:27,014 - DiT_Trainer - INFO - --- Epoch 133/350 ---
+2025-09-30 13:16:26,768 - DiT_Trainer - INFO - Epoch 133 finished. Avg Loss: 0.3148 | Current LR: 7.371924e-05
+2025-09-30 13:16:26,770 - DiT_Trainer - INFO - --- Epoch 134/350 ---
+2025-09-30 13:18:26,263 - DiT_Trainer - INFO - Epoch 134 finished. Avg Loss: 0.3249 | Current LR: 7.781104e-05
+2025-09-30 13:18:26,264 - DiT_Trainer - INFO - --- Epoch 135/350 ---
+2025-09-30 13:20:35,491 - DiT_Trainer - INFO - Epoch 135 finished. Avg Loss: 0.3108 | Current LR: 8.197412e-05
+2025-09-30 13:20:35,493 - DiT_Trainer - INFO - --- Epoch 136/350 ---
+2025-09-30 13:22:34,565 - DiT_Trainer - INFO - Epoch 136 finished. Avg Loss: 0.3196 | Current LR: 8.620440e-05
+2025-09-30 13:22:34,567 - DiT_Trainer - INFO - --- Epoch 137/350 ---
+2025-09-30 13:24:33,898 - DiT_Trainer - INFO - Epoch 137 finished. Avg Loss: 0.3116 | Current LR: 9.049767e-05
+2025-09-30 13:24:33,900 - DiT_Trainer - INFO - --- Epoch 138/350 ---
+2025-09-30 13:26:33,754 - DiT_Trainer - INFO - Epoch 138 finished. Avg Loss: 0.3242 | Current LR: 9.484972e-05
+2025-09-30 13:26:33,756 - DiT_Trainer - INFO - --- Epoch 139/350 ---
+2025-09-30 13:28:32,396 - DiT_Trainer - INFO - Epoch 139 finished. Avg Loss: 0.3124 | Current LR: 9.925625e-05
+2025-09-30 13:28:32,398 - DiT_Trainer - INFO - --- Epoch 140/350 ---
+2025-09-30 13:30:31,274 - DiT_Trainer - INFO - Epoch 140 finished. Avg Loss: 0.3152 | Current LR: 1.037129e-04
+2025-09-30 13:30:31,458 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_140.pt
+2025-09-30 13:30:31,458 - DiT_Trainer - INFO - --- Epoch 141/350 ---
+2025-09-30 13:32:30,401 - DiT_Trainer - INFO - Epoch 141 finished. Avg Loss: 0.3163 | Current LR: 1.082153e-04
+2025-09-30 13:32:30,403 - DiT_Trainer - INFO - --- Epoch 142/350 ---
+2025-09-30 13:34:29,630 - DiT_Trainer - INFO - Epoch 142 finished. Avg Loss: 0.3137 | Current LR: 1.127590e-04
+2025-09-30 13:34:29,632 - DiT_Trainer - INFO - --- Epoch 143/350 ---
+2025-09-30 13:36:29,137 - DiT_Trainer - INFO - Epoch 143 finished. Avg Loss: 0.3188 | Current LR: 1.173394e-04
+2025-09-30 13:36:29,138 - DiT_Trainer - INFO - --- Epoch 144/350 ---
+2025-09-30 13:38:27,534 - DiT_Trainer - INFO - Epoch 144 finished. Avg Loss: 0.3117 | Current LR: 1.219522e-04
+2025-09-30 13:38:27,536 - DiT_Trainer - INFO - --- Epoch 145/350 ---
+2025-09-30 13:40:26,988 - DiT_Trainer - INFO - Epoch 145 finished. Avg Loss: 0.3135 | Current LR: 1.265927e-04
+2025-09-30 13:40:26,990 - DiT_Trainer - INFO - --- Epoch 146/350 ---
+2025-09-30 13:42:26,555 - DiT_Trainer - INFO - Epoch 146 finished. Avg Loss: 0.3197 | Current LR: 1.312563e-04
+2025-09-30 13:42:26,557 - DiT_Trainer - INFO - --- Epoch 147/350 ---
+2025-09-30 13:44:25,577 - DiT_Trainer - INFO - Epoch 147 finished. Avg Loss: 0.3134 | Current LR: 1.359385e-04
+2025-09-30 13:44:25,579 - DiT_Trainer - INFO - --- Epoch 148/350 ---
+2025-09-30 13:46:24,361 - DiT_Trainer - INFO - Epoch 148 finished. Avg Loss: 0.3178 | Current LR: 1.406346e-04
+2025-09-30 13:46:24,362 - DiT_Trainer - INFO - --- Epoch 149/350 ---
+2025-09-30 13:48:25,727 - DiT_Trainer - INFO - Epoch 149 finished. Avg Loss: 0.3246 | Current LR: 1.453400e-04
+2025-09-30 13:48:25,729 - DiT_Trainer - INFO - --- Epoch 150/350 ---
+2025-09-30 13:50:26,207 - DiT_Trainer - INFO - Epoch 150 finished. Avg Loss: 0.3159 | Current LR: 1.500500e-04
+2025-09-30 13:50:26,386 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_150.pt
+2025-09-30 13:50:26,387 - DiT_Trainer - INFO - --- Epoch 151/350 ---
+2025-09-30 13:52:26,649 - DiT_Trainer - INFO - Epoch 151 finished. Avg Loss: 0.3166 | Current LR: 1.547600e-04
+2025-09-30 13:52:26,651 - DiT_Trainer - INFO - --- Epoch 152/350 ---
+2025-09-30 13:54:27,371 - DiT_Trainer - INFO - Epoch 152 finished. Avg Loss: 0.3234 | Current LR: 1.594654e-04
+2025-09-30 13:54:27,373 - DiT_Trainer - INFO - --- Epoch 153/350 ---
+2025-09-30 13:56:26,605 - DiT_Trainer - INFO - Epoch 153 finished. Avg Loss: 0.3232 | Current LR: 1.641615e-04
+2025-09-30 13:56:26,606 - DiT_Trainer - INFO - --- Epoch 154/350 ---
+2025-09-30 13:58:25,579 - DiT_Trainer - INFO - Epoch 154 finished. Avg Loss: 0.3196 | Current LR: 1.688437e-04
+2025-09-30 13:58:25,580 - DiT_Trainer - INFO - --- Epoch 155/350 ---
+2025-09-30 14:00:29,309 - DiT_Trainer - INFO - Epoch 155 finished. Avg Loss: 0.3274 | Current LR: 1.735073e-04
+2025-09-30 14:00:29,310 - DiT_Trainer - INFO - --- Epoch 156/350 ---
+2025-09-30 14:02:27,704 - DiT_Trainer - INFO - Epoch 156 finished. Avg Loss: 0.3120 | Current LR: 1.781478e-04
+2025-09-30 14:02:27,706 - DiT_Trainer - INFO - --- Epoch 157/350 ---
+2025-09-30 14:04:27,928 - DiT_Trainer - INFO - Epoch 157 finished. Avg Loss: 0.3235 | Current LR: 1.827606e-04
+2025-09-30 14:04:27,930 - DiT_Trainer - INFO - --- Epoch 158/350 ---
+2025-09-30 14:06:27,807 - DiT_Trainer - INFO - Epoch 158 finished. Avg Loss: 0.3187 | Current LR: 1.873410e-04
+2025-09-30 14:06:27,810 - DiT_Trainer - INFO - --- Epoch 159/350 ---
+2025-09-30 14:08:27,247 - DiT_Trainer - INFO - Epoch 159 finished. Avg Loss: 0.3190 | Current LR: 1.918847e-04
+2025-09-30 14:08:27,249 - DiT_Trainer - INFO - --- Epoch 160/350 ---
+2025-09-30 14:10:25,884 - DiT_Trainer - INFO - Epoch 160 finished. Avg Loss: 0.3252 | Current LR: 1.963871e-04
+2025-09-30 14:10:26,081 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_160.pt
+2025-09-30 14:10:26,082 - DiT_Trainer - INFO - --- Epoch 161/350 ---
+2025-09-30 14:12:24,845 - DiT_Trainer - INFO - Epoch 161 finished. Avg Loss: 0.3260 | Current LR: 2.008438e-04
+2025-09-30 14:12:24,847 - DiT_Trainer - INFO - --- Epoch 162/350 ---
+2025-09-30 14:14:24,497 - DiT_Trainer - INFO - Epoch 162 finished. Avg Loss: 0.3257 | Current LR: 2.052503e-04
+2025-09-30 14:14:24,500 - DiT_Trainer - INFO - --- Epoch 163/350 ---
+2025-09-30 14:16:25,816 - DiT_Trainer - INFO - Epoch 163 finished. Avg Loss: 0.3233 | Current LR: 2.096023e-04
+2025-09-30 14:16:25,817 - DiT_Trainer - INFO - --- Epoch 164/350 ---
+2025-09-30 14:18:26,189 - DiT_Trainer - INFO - Epoch 164 finished. Avg Loss: 0.3195 | Current LR: 2.138956e-04
+2025-09-30 14:18:26,190 - DiT_Trainer - INFO - --- Epoch 165/350 ---
+2025-09-30 14:20:25,065 - DiT_Trainer - INFO - Epoch 165 finished. Avg Loss: 0.3279 | Current LR: 2.181259e-04
+2025-09-30 14:20:25,066 - DiT_Trainer - INFO - --- Epoch 166/350 ---
+2025-09-30 14:22:23,313 - DiT_Trainer - INFO - Epoch 166 finished. Avg Loss: 0.3193 | Current LR: 2.222890e-04
+2025-09-30 14:22:23,315 - DiT_Trainer - INFO - --- Epoch 167/350 ---
+2025-09-30 14:24:22,470 - DiT_Trainer - INFO - Epoch 167 finished. Avg Loss: 0.3268 | Current LR: 2.263808e-04
+2025-09-30 14:24:22,472 - DiT_Trainer - INFO - --- Epoch 168/350 ---
+2025-09-30 14:26:22,237 - DiT_Trainer - INFO - Epoch 168 finished. Avg Loss: 0.3299 | Current LR: 2.303972e-04
+2025-09-30 14:26:22,239 - DiT_Trainer - INFO - --- Epoch 169/350 ---
+2025-09-30 14:28:20,940 - DiT_Trainer - INFO - Epoch 169 finished. Avg Loss: 0.3318 | Current LR: 2.343344e-04
+2025-09-30 14:28:20,942 - DiT_Trainer - INFO - --- Epoch 170/350 ---
+2025-09-30 14:30:20,072 - DiT_Trainer - INFO - Epoch 170 finished. Avg Loss: 0.3198 | Current LR: 2.381884e-04
+2025-09-30 14:30:20,321 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_170.pt
+2025-09-30 14:30:20,321 - DiT_Trainer - INFO - --- Epoch 171/350 ---
+2025-09-30 14:32:19,989 - DiT_Trainer - INFO - Epoch 171 finished. Avg Loss: 0.3265 | Current LR: 2.419554e-04
+2025-09-30 14:32:19,992 - DiT_Trainer - INFO - --- Epoch 172/350 ---
+2025-09-30 14:34:19,679 - DiT_Trainer - INFO - Epoch 172 finished. Avg Loss: 0.3271 | Current LR: 2.456317e-04
+2025-09-30 14:34:19,681 - DiT_Trainer - INFO - --- Epoch 173/350 ---
+2025-09-30 14:36:19,124 - DiT_Trainer - INFO - Epoch 173 finished. Avg Loss: 0.3201 | Current LR: 2.492137e-04
+2025-09-30 14:36:19,127 - DiT_Trainer - INFO - --- Epoch 174/350 ---
+2025-09-30 14:38:17,862 - DiT_Trainer - INFO - Epoch 174 finished. Avg Loss: 0.3246 | Current LR: 2.526978e-04
+2025-09-30 14:38:17,864 - DiT_Trainer - INFO - --- Epoch 175/350 ---
+2025-09-30 14:40:17,230 - DiT_Trainer - INFO - Epoch 175 finished. Avg Loss: 0.3225 | Current LR: 2.560807e-04
+2025-09-30 14:40:17,232 - DiT_Trainer - INFO - --- Epoch 176/350 ---
+2025-09-30 14:42:15,702 - DiT_Trainer - INFO - Epoch 176 finished. Avg Loss: 0.3279 | Current LR: 2.593588e-04
+2025-09-30 14:42:15,703 - DiT_Trainer - INFO - --- Epoch 177/350 ---
+2025-09-30 14:44:15,456 - DiT_Trainer - INFO - Epoch 177 finished. Avg Loss: 0.3330 | Current LR: 2.625292e-04
+2025-09-30 14:44:15,459 - DiT_Trainer - INFO - --- Epoch 178/350 ---
+2025-09-30 14:46:15,190 - DiT_Trainer - INFO - Epoch 178 finished. Avg Loss: 0.3313 | Current LR: 2.655885e-04
+2025-09-30 14:46:15,192 - DiT_Trainer - INFO - --- Epoch 179/350 ---
+2025-09-30 14:48:15,512 - DiT_Trainer - INFO - Epoch 179 finished. Avg Loss: 0.3346 | Current LR: 2.685337e-04
+2025-09-30 14:48:15,514 - DiT_Trainer - INFO - --- Epoch 180/350 ---
+2025-09-30 14:50:16,514 - DiT_Trainer - INFO - Epoch 180 finished. Avg Loss: 0.3298 | Current LR: 2.713621e-04
+2025-09-30 14:50:16,768 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_180.pt
+2025-09-30 14:50:16,768 - DiT_Trainer - INFO - --- Epoch 181/350 ---
+2025-09-30 14:52:15,886 - DiT_Trainer - INFO - Epoch 181 finished. Avg Loss: 0.3317 | Current LR: 2.740707e-04
+2025-09-30 14:52:15,888 - DiT_Trainer - INFO - --- Epoch 182/350 ---
+2025-09-30 14:54:16,205 - DiT_Trainer - INFO - Epoch 182 finished. Avg Loss: 0.3249 | Current LR: 2.766570e-04
+2025-09-30 14:54:16,207 - DiT_Trainer - INFO - --- Epoch 183/350 ---
+2025-09-30 14:56:15,674 - DiT_Trainer - INFO - Epoch 183 finished. Avg Loss: 0.3181 | Current LR: 2.791183e-04
+2025-09-30 14:56:15,676 - DiT_Trainer - INFO - --- Epoch 184/350 ---
+2025-09-30 14:58:14,230 - DiT_Trainer - INFO - Epoch 184 finished. Avg Loss: 0.3173 | Current LR: 2.814522e-04
+2025-09-30 14:58:14,232 - DiT_Trainer - INFO - --- Epoch 185/350 ---
+2025-09-30 15:00:13,513 - DiT_Trainer - INFO - Epoch 185 finished. Avg Loss: 0.3196 | Current LR: 2.836564e-04
+2025-09-30 15:00:13,514 - DiT_Trainer - INFO - --- Epoch 186/350 ---
+2025-09-30 15:02:12,764 - DiT_Trainer - INFO - Epoch 186 finished. Avg Loss: 0.3238 | Current LR: 2.857288e-04
+2025-09-30 15:02:12,766 - DiT_Trainer - INFO - --- Epoch 187/350 ---
+2025-09-30 15:04:11,784 - DiT_Trainer - INFO - Epoch 187 finished. Avg Loss: 0.3261 | Current LR: 2.876673e-04
+2025-09-30 15:04:11,786 - DiT_Trainer - INFO - --- Epoch 188/350 ---
+2025-09-30 15:06:12,760 - DiT_Trainer - INFO - Epoch 188 finished. Avg Loss: 0.3335 | Current LR: 2.894700e-04
+2025-09-30 15:06:12,762 - DiT_Trainer - INFO - --- Epoch 189/350 ---
+2025-09-30 15:08:11,793 - DiT_Trainer - INFO - Epoch 189 finished. Avg Loss: 0.3275 | Current LR: 2.911351e-04
+2025-09-30 15:08:11,795 - DiT_Trainer - INFO - --- Epoch 190/350 ---
+2025-09-30 15:10:11,441 - DiT_Trainer - INFO - Epoch 190 finished. Avg Loss: 0.3188 | Current LR: 2.926609e-04
+2025-09-30 15:10:11,677 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_190.pt
+2025-09-30 15:10:11,677 - DiT_Trainer - INFO - --- Epoch 191/350 ---
+2025-09-30 15:12:10,910 - DiT_Trainer - INFO - Epoch 191 finished. Avg Loss: 0.3286 | Current LR: 2.940460e-04
+2025-09-30 15:12:10,912 - DiT_Trainer - INFO - --- Epoch 192/350 ---
+2025-09-30 15:14:10,108 - DiT_Trainer - INFO - Epoch 192 finished. Avg Loss: 0.3214 | Current LR: 2.952890e-04
+2025-09-30 15:14:10,110 - DiT_Trainer - INFO - --- Epoch 193/350 ---
+2025-09-30 15:16:09,373 - DiT_Trainer - INFO - Epoch 193 finished. Avg Loss: 0.3290 | Current LR: 2.963887e-04
+2025-09-30 15:16:09,375 - DiT_Trainer - INFO - --- Epoch 194/350 ---
+2025-09-30 15:18:09,698 - DiT_Trainer - INFO - Epoch 194 finished. Avg Loss: 0.3233 | Current LR: 2.973440e-04
+2025-09-30 15:18:09,700 - DiT_Trainer - INFO - --- Epoch 195/350 ---
+2025-09-30 15:20:09,148 - DiT_Trainer - INFO - Epoch 195 finished. Avg Loss: 0.3209 | Current LR: 2.981539e-04
+2025-09-30 15:20:09,151 - DiT_Trainer - INFO - --- Epoch 196/350 ---
+2025-09-30 15:22:07,934 - DiT_Trainer - INFO - Epoch 196 finished. Avg Loss: 0.3215 | Current LR: 2.988176e-04
+2025-09-30 15:22:07,936 - DiT_Trainer - INFO - --- Epoch 197/350 ---
+2025-09-30 15:24:07,865 - DiT_Trainer - INFO - Epoch 197 finished. Avg Loss: 0.3229 | Current LR: 2.993345e-04
+2025-09-30 15:24:07,866 - DiT_Trainer - INFO - --- Epoch 198/350 ---
+2025-09-30 15:26:06,601 - DiT_Trainer - INFO - Epoch 198 finished. Avg Loss: 0.3182 | Current LR: 2.997041e-04
+2025-09-30 15:26:06,603 - DiT_Trainer - INFO - --- Epoch 199/350 ---
+2025-09-30 15:28:05,588 - DiT_Trainer - INFO - Epoch 199 finished. Avg Loss: 0.3257 | Current LR: 2.999260e-04
+2025-09-30 15:28:05,589 - DiT_Trainer - INFO - --- Epoch 200/350 ---
+2025-09-30 15:30:04,801 - DiT_Trainer - INFO - Epoch 200 finished. Avg Loss: 0.3208 | Current LR: 3.000000e-04
+2025-09-30 15:30:05,026 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_200.pt
+2025-09-30 15:30:05,026 - DiT_Trainer - INFO - --- Epoch 201/350 ---
+2025-09-30 15:32:03,984 - DiT_Trainer - INFO - Epoch 201 finished. Avg Loss: 0.3258 | Current LR: 2.999260e-04
+2025-09-30 15:32:03,986 - DiT_Trainer - INFO - --- Epoch 202/350 ---
+2025-09-30 15:34:03,662 - DiT_Trainer - INFO - Epoch 202 finished. Avg Loss: 0.3253 | Current LR: 2.997041e-04
+2025-09-30 15:34:03,664 - DiT_Trainer - INFO - --- Epoch 203/350 ---
+2025-09-30 15:36:03,215 - DiT_Trainer - INFO - Epoch 203 finished. Avg Loss: 0.3178 | Current LR: 2.993345e-04
+2025-09-30 15:36:03,217 - DiT_Trainer - INFO - --- Epoch 204/350 ---
+2025-09-30 15:38:02,191 - DiT_Trainer - INFO - Epoch 204 finished. Avg Loss: 0.3254 | Current LR: 2.988176e-04
+2025-09-30 15:38:02,193 - DiT_Trainer - INFO - --- Epoch 205/350 ---
+2025-09-30 15:40:01,193 - DiT_Trainer - INFO - Epoch 205 finished. Avg Loss: 0.3198 | Current LR: 2.981539e-04
+2025-09-30 15:40:01,194 - DiT_Trainer - INFO - --- Epoch 206/350 ---
+2025-09-30 15:42:00,621 - DiT_Trainer - INFO - Epoch 206 finished. Avg Loss: 0.3136 | Current LR: 2.973440e-04
+2025-09-30 15:42:00,622 - DiT_Trainer - INFO - --- Epoch 207/350 ---
+2025-09-30 15:44:00,601 - DiT_Trainer - INFO - Epoch 207 finished. Avg Loss: 0.3176 | Current LR: 2.963887e-04
+2025-09-30 15:44:00,603 - DiT_Trainer - INFO - --- Epoch 208/350 ---
+2025-09-30 15:46:00,209 - DiT_Trainer - INFO - Epoch 208 finished. Avg Loss: 0.3200 | Current LR: 2.952890e-04
+2025-09-30 15:46:00,211 - DiT_Trainer - INFO - --- Epoch 209/350 ---
+2025-09-30 15:48:00,091 - DiT_Trainer - INFO - Epoch 209 finished. Avg Loss: 0.3229 | Current LR: 2.940460e-04
+2025-09-30 15:48:00,093 - DiT_Trainer - INFO - --- Epoch 210/350 ---
+2025-09-30 15:49:59,986 - DiT_Trainer - INFO - Epoch 210 finished. Avg Loss: 0.3193 | Current LR: 2.926609e-04
+2025-09-30 15:50:00,227 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_210.pt
+2025-09-30 15:50:00,227 - DiT_Trainer - INFO - --- Epoch 211/350 ---
+2025-09-30 15:52:00,485 - DiT_Trainer - INFO - Epoch 211 finished. Avg Loss: 0.3222 | Current LR: 2.911351e-04
+2025-09-30 15:52:00,487 - DiT_Trainer - INFO - --- Epoch 212/350 ---
+2025-09-30 15:54:00,070 - DiT_Trainer - INFO - Epoch 212 finished. Avg Loss: 0.3281 | Current LR: 2.894700e-04
+2025-09-30 15:54:00,072 - DiT_Trainer - INFO - --- Epoch 213/350 ---
+2025-09-30 15:55:59,085 - DiT_Trainer - INFO - Epoch 213 finished. Avg Loss: 0.3186 | Current LR: 2.876673e-04
+2025-09-30 15:55:59,087 - DiT_Trainer - INFO - --- Epoch 214/350 ---
+2025-09-30 15:57:58,070 - DiT_Trainer - INFO - Epoch 214 finished. Avg Loss: 0.3174 | Current LR: 2.857288e-04
+2025-09-30 15:57:58,072 - DiT_Trainer - INFO - --- Epoch 215/350 ---
+2025-09-30 15:59:57,700 - DiT_Trainer - INFO - Epoch 215 finished. Avg Loss: 0.3184 | Current LR: 2.836564e-04
+2025-09-30 15:59:57,701 - DiT_Trainer - INFO - --- Epoch 216/350 ---
+2025-09-30 16:02:02,271 - DiT_Trainer - INFO - Epoch 216 finished. Avg Loss: 0.3192 | Current LR: 2.814522e-04
+2025-09-30 16:02:02,274 - DiT_Trainer - INFO - --- Epoch 217/350 ---
+2025-09-30 16:04:03,080 - DiT_Trainer - INFO - Epoch 217 finished. Avg Loss: 0.3151 | Current LR: 2.791183e-04
+2025-09-30 16:04:03,082 - DiT_Trainer - INFO - --- Epoch 218/350 ---
+2025-09-30 16:06:01,866 - DiT_Trainer - INFO - Epoch 218 finished. Avg Loss: 0.3119 | Current LR: 2.766570e-04
+2025-09-30 16:06:01,868 - DiT_Trainer - INFO - --- Epoch 219/350 ---
+2025-09-30 16:08:01,526 - DiT_Trainer - INFO - Epoch 219 finished. Avg Loss: 0.3145 | Current LR: 2.740707e-04
+2025-09-30 16:08:01,529 - DiT_Trainer - INFO - --- Epoch 220/350 ---
+2025-09-30 16:10:02,558 - DiT_Trainer - INFO - Epoch 220 finished. Avg Loss: 0.3071 | Current LR: 2.713621e-04
+2025-09-30 16:10:02,798 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_220.pt
+2025-09-30 16:10:02,799 - DiT_Trainer - INFO - --- Epoch 221/350 ---
+2025-09-30 16:12:01,936 - DiT_Trainer - INFO - Epoch 221 finished. Avg Loss: 0.3230 | Current LR: 2.685337e-04
+2025-09-30 16:12:01,938 - DiT_Trainer - INFO - --- Epoch 222/350 ---
+2025-09-30 16:14:02,056 - DiT_Trainer - INFO - Epoch 222 finished. Avg Loss: 0.3079 | Current LR: 2.655885e-04
+2025-09-30 16:14:02,058 - DiT_Trainer - INFO - --- Epoch 223/350 ---
+2025-09-30 16:16:01,281 - DiT_Trainer - INFO - Epoch 223 finished. Avg Loss: 0.3182 | Current LR: 2.625292e-04
+2025-09-30 16:16:01,284 - DiT_Trainer - INFO - --- Epoch 224/350 ---
+2025-09-30 16:18:00,913 - DiT_Trainer - INFO - Epoch 224 finished. Avg Loss: 0.3113 | Current LR: 2.593588e-04
+2025-09-30 16:18:00,917 - DiT_Trainer - INFO - --- Epoch 225/350 ---
+2025-09-30 16:20:01,928 - DiT_Trainer - INFO - Epoch 225 finished. Avg Loss: 0.3167 | Current LR: 2.560807e-04
+2025-09-30 16:20:01,930 - DiT_Trainer - INFO - --- Epoch 226/350 ---
+2025-09-30 16:22:02,127 - DiT_Trainer - INFO - Epoch 226 finished. Avg Loss: 0.3117 | Current LR: 2.526978e-04
+2025-09-30 16:22:02,128 - DiT_Trainer - INFO - --- Epoch 227/350 ---
+2025-09-30 16:24:01,584 - DiT_Trainer - INFO - Epoch 227 finished. Avg Loss: 0.2977 | Current LR: 2.492137e-04
+2025-09-30 16:24:01,585 - DiT_Trainer - INFO - --- Epoch 228/350 ---
+2025-09-30 16:26:00,239 - DiT_Trainer - INFO - Epoch 228 finished. Avg Loss: 0.3037 | Current LR: 2.456317e-04
+2025-09-30 16:26:00,240 - DiT_Trainer - INFO - --- Epoch 229/350 ---
+2025-09-30 16:27:59,553 - DiT_Trainer - INFO - Epoch 229 finished. Avg Loss: 0.3130 | Current LR: 2.419554e-04
+2025-09-30 16:27:59,555 - DiT_Trainer - INFO - --- Epoch 230/350 ---
+2025-09-30 16:29:59,028 - DiT_Trainer - INFO - Epoch 230 finished. Avg Loss: 0.3045 | Current LR: 2.381884e-04
+2025-09-30 16:29:59,285 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_230.pt
+2025-09-30 16:29:59,285 - DiT_Trainer - INFO - --- Epoch 231/350 ---
+2025-09-30 16:31:59,181 - DiT_Trainer - INFO - Epoch 231 finished. Avg Loss: 0.3004 | Current LR: 2.343344e-04
+2025-09-30 16:31:59,184 - DiT_Trainer - INFO - --- Epoch 232/350 ---
+2025-09-30 16:33:58,025 - DiT_Trainer - INFO - Epoch 232 finished. Avg Loss: 0.3062 | Current LR: 2.303972e-04
+2025-09-30 16:33:58,027 - DiT_Trainer - INFO - --- Epoch 233/350 ---
+2025-09-30 16:35:57,975 - DiT_Trainer - INFO - Epoch 233 finished. Avg Loss: 0.3098 | Current LR: 2.263808e-04
+2025-09-30 16:35:57,977 - DiT_Trainer - INFO - --- Epoch 234/350 ---
+2025-09-30 16:37:57,348 - DiT_Trainer - INFO - Epoch 234 finished. Avg Loss: 0.3159 | Current LR: 2.222890e-04
+2025-09-30 16:37:57,350 - DiT_Trainer - INFO - --- Epoch 235/350 ---
+2025-09-30 16:39:57,366 - DiT_Trainer - INFO - Epoch 235 finished. Avg Loss: 0.3051 | Current LR: 2.181259e-04
+2025-09-30 16:39:57,368 - DiT_Trainer - INFO - --- Epoch 236/350 ---
+2025-09-30 16:41:56,504 - DiT_Trainer - INFO - Epoch 236 finished. Avg Loss: 0.2962 | Current LR: 2.138956e-04
+2025-09-30 16:41:56,505 - DiT_Trainer - INFO - --- Epoch 237/350 ---
+2025-09-30 16:43:55,836 - DiT_Trainer - INFO - Epoch 237 finished. Avg Loss: 0.3029 | Current LR: 2.096023e-04
+2025-09-30 16:43:55,839 - DiT_Trainer - INFO - --- Epoch 238/350 ---
+2025-09-30 16:45:54,663 - DiT_Trainer - INFO - Epoch 238 finished. Avg Loss: 0.3038 | Current LR: 2.052503e-04
+2025-09-30 16:45:54,665 - DiT_Trainer - INFO - --- Epoch 239/350 ---
+2025-09-30 16:47:55,300 - DiT_Trainer - INFO - Epoch 239 finished. Avg Loss: 0.3079 | Current LR: 2.008438e-04
+2025-09-30 16:47:55,303 - DiT_Trainer - INFO - --- Epoch 240/350 ---
+2025-09-30 16:49:56,997 - DiT_Trainer - INFO - Epoch 240 finished. Avg Loss: 0.3002 | Current LR: 1.963871e-04
+2025-09-30 16:49:57,255 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_240.pt
+2025-09-30 16:49:57,256 - DiT_Trainer - INFO - --- Epoch 241/350 ---
+2025-09-30 16:52:01,477 - DiT_Trainer - INFO - Epoch 241 finished. Avg Loss: 0.2973 | Current LR: 1.918847e-04
+2025-09-30 16:52:01,479 - DiT_Trainer - INFO - --- Epoch 242/350 ---
+2025-09-30 16:54:05,053 - DiT_Trainer - INFO - Epoch 242 finished. Avg Loss: 0.3012 | Current LR: 1.873410e-04
+2025-09-30 16:54:05,054 - DiT_Trainer - INFO - --- Epoch 243/350 ---
+2025-09-30 16:56:12,934 - DiT_Trainer - INFO - Epoch 243 finished. Avg Loss: 0.3007 | Current LR: 1.827606e-04
+2025-09-30 16:56:12,935 - DiT_Trainer - INFO - --- Epoch 244/350 ---
+2025-09-30 16:58:20,888 - DiT_Trainer - INFO - Epoch 244 finished. Avg Loss: 0.3008 | Current LR: 1.781478e-04
+2025-09-30 16:58:20,889 - DiT_Trainer - INFO - --- Epoch 245/350 ---
+2025-09-30 17:00:24,348 - DiT_Trainer - INFO - Epoch 245 finished. Avg Loss: 0.2943 | Current LR: 1.735073e-04
+2025-09-30 17:00:24,349 - DiT_Trainer - INFO - --- Epoch 246/350 ---
+2025-09-30 17:02:23,978 - DiT_Trainer - INFO - Epoch 246 finished. Avg Loss: 0.2954 | Current LR: 1.688437e-04
+2025-09-30 17:02:23,980 - DiT_Trainer - INFO - --- Epoch 247/350 ---
+2025-09-30 17:04:26,698 - DiT_Trainer - INFO - Epoch 247 finished. Avg Loss: 0.2931 | Current LR: 1.641615e-04
+2025-09-30 17:04:26,699 - DiT_Trainer - INFO - --- Epoch 248/350 ---
+2025-09-30 17:06:34,877 - DiT_Trainer - INFO - Epoch 248 finished. Avg Loss: 0.2968 | Current LR: 1.594654e-04
+2025-09-30 17:06:34,878 - DiT_Trainer - INFO - --- Epoch 249/350 ---
+2025-09-30 17:08:37,013 - DiT_Trainer - INFO - Epoch 249 finished. Avg Loss: 0.2932 | Current LR: 1.547600e-04
+2025-09-30 17:08:37,016 - DiT_Trainer - INFO - --- Epoch 250/350 ---
+2025-09-30 17:10:39,895 - DiT_Trainer - INFO - Epoch 250 finished. Avg Loss: 0.2887 | Current LR: 1.500500e-04
+2025-09-30 17:10:40,161 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_250.pt
+2025-09-30 17:10:40,161 - DiT_Trainer - INFO - --- Epoch 251/350 ---
+2025-09-30 17:12:43,133 - DiT_Trainer - INFO - Epoch 251 finished. Avg Loss: 0.2940 | Current LR: 1.453400e-04
+2025-09-30 17:12:43,136 - DiT_Trainer - INFO - --- Epoch 252/350 ---
+2025-09-30 17:14:46,559 - DiT_Trainer - INFO - Epoch 252 finished. Avg Loss: 0.2989 | Current LR: 1.406346e-04
+2025-09-30 17:14:46,561 - DiT_Trainer - INFO - --- Epoch 253/350 ---
+2025-09-30 17:16:49,179 - DiT_Trainer - INFO - Epoch 253 finished. Avg Loss: 0.2873 | Current LR: 1.359385e-04
+2025-09-30 17:16:49,180 - DiT_Trainer - INFO - --- Epoch 254/350 ---
+2025-09-30 17:18:52,186 - DiT_Trainer - INFO - Epoch 254 finished. Avg Loss: 0.2881 | Current LR: 1.312563e-04
+2025-09-30 17:18:52,189 - DiT_Trainer - INFO - --- Epoch 255/350 ---

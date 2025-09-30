@@ -1,0 +1,54 @@
+2025-09-29 13:57:07,120 - DiT_Trainer - INFO - Starting training on device: mps
+2025-09-29 13:57:07,120 - DiT_Trainer - INFO - Configuration: Epochs=50, BatchSize=8, LR=0.0001
+2025-09-29 13:57:07,230 - DiT_Trainer - INFO - Starting full CFG training run for 50 epochs.
+2025-09-29 13:57:07,230 - DiT_Trainer - INFO - --- Epoch 1/50 ---
+2025-09-29 13:58:59,009 - DiT_Trainer - INFO - Epoch 1 finished. Avg Loss: 1.0499
+2025-09-29 13:58:59,011 - DiT_Trainer - INFO - --- Epoch 2/50 ---
+2025-09-29 14:00:48,549 - DiT_Trainer - INFO - Epoch 2 finished. Avg Loss: 1.0088
+2025-09-29 14:00:48,551 - DiT_Trainer - INFO - --- Epoch 3/50 ---
+2025-09-29 14:02:29,655 - DiT_Trainer - INFO - Epoch 3 finished. Avg Loss: 1.0044
+2025-09-29 14:02:29,657 - DiT_Trainer - INFO - --- Epoch 4/50 ---
+2025-09-29 14:04:21,712 - DiT_Trainer - INFO - Epoch 4 finished. Avg Loss: 1.0028
+2025-09-29 14:04:21,713 - DiT_Trainer - INFO - --- Epoch 5/50 ---
+2025-09-29 14:06:01,636 - DiT_Trainer - INFO - Epoch 5 finished. Avg Loss: 1.0019
+2025-09-29 14:06:01,637 - DiT_Trainer - INFO - --- Epoch 6/50 ---
+2025-09-29 14:07:50,011 - DiT_Trainer - INFO - Epoch 6 finished. Avg Loss: 0.9998
+2025-09-29 14:07:50,013 - DiT_Trainer - INFO - --- Epoch 7/50 ---
+2025-09-29 14:09:39,081 - DiT_Trainer - INFO - Epoch 7 finished. Avg Loss: 0.9993
+2025-09-29 14:09:39,083 - DiT_Trainer - INFO - --- Epoch 8/50 ---
+2025-09-29 14:11:41,580 - DiT_Trainer - INFO - Epoch 8 finished. Avg Loss: 0.9986
+2025-09-29 14:11:41,581 - DiT_Trainer - INFO - --- Epoch 9/50 ---
+2025-09-29 14:14:12,108 - DiT_Trainer - INFO - Epoch 9 finished. Avg Loss: 0.9987
+2025-09-29 14:14:12,110 - DiT_Trainer - INFO - --- Epoch 10/50 ---
+2025-09-29 14:15:54,696 - DiT_Trainer - INFO - Epoch 10 finished. Avg Loss: 0.9980
+2025-09-29 14:15:55,035 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_10.pt
+2025-09-29 14:15:55,035 - DiT_Trainer - INFO - --- Epoch 11/50 ---
+2025-09-29 14:17:37,635 - DiT_Trainer - INFO - Epoch 11 finished. Avg Loss: 0.9983
+2025-09-29 14:17:37,636 - DiT_Trainer - INFO - --- Epoch 12/50 ---
+2025-09-29 14:19:23,301 - DiT_Trainer - INFO - Epoch 12 finished. Avg Loss: 0.9972
+2025-09-29 14:19:23,303 - DiT_Trainer - INFO - --- Epoch 13/50 ---
+2025-09-29 14:21:05,519 - DiT_Trainer - INFO - Epoch 13 finished. Avg Loss: 0.9976
+2025-09-29 14:21:05,519 - DiT_Trainer - INFO - --- Epoch 14/50 ---
+2025-09-29 14:22:52,344 - DiT_Trainer - INFO - Epoch 14 finished. Avg Loss: 0.9978
+2025-09-29 14:22:52,346 - DiT_Trainer - INFO - --- Epoch 15/50 ---
+2025-09-29 14:24:35,172 - DiT_Trainer - INFO - Epoch 15 finished. Avg Loss: 0.9978
+2025-09-29 14:24:35,173 - DiT_Trainer - INFO - --- Epoch 16/50 ---
+2025-09-29 14:26:15,406 - DiT_Trainer - INFO - Epoch 16 finished. Avg Loss: 0.9972
+2025-09-29 14:26:15,408 - DiT_Trainer - INFO - --- Epoch 17/50 ---
+2025-09-29 14:27:56,710 - DiT_Trainer - INFO - Epoch 17 finished. Avg Loss: 0.9978
+2025-09-29 14:27:56,711 - DiT_Trainer - INFO - --- Epoch 18/50 ---
+2025-09-29 14:29:38,577 - DiT_Trainer - INFO - Epoch 18 finished. Avg Loss: 0.9966
+2025-09-29 14:29:38,579 - DiT_Trainer - INFO - --- Epoch 19/50 ---
+2025-09-29 14:31:17,568 - DiT_Trainer - INFO - Epoch 19 finished. Avg Loss: 0.9968
+2025-09-29 14:31:17,569 - DiT_Trainer - INFO - --- Epoch 20/50 ---
+2025-09-29 14:33:00,706 - DiT_Trainer - INFO - Epoch 20 finished. Avg Loss: 0.9967
+2025-09-29 14:33:00,955 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_20.pt
+2025-09-29 14:33:00,955 - DiT_Trainer - INFO - --- Epoch 21/50 ---
+2025-09-29 14:41:52,346 - DiT_Trainer - INFO - Epoch 21 finished. Avg Loss: 0.9967
+2025-09-29 14:41:52,347 - DiT_Trainer - INFO - --- Epoch 22/50 ---
+2025-09-29 14:43:46,122 - DiT_Trainer - INFO - Epoch 22 finished. Avg Loss: 0.9975
+2025-09-29 14:43:46,123 - DiT_Trainer - INFO - --- Epoch 23/50 ---
+2025-09-29 14:45:24,053 - DiT_Trainer - INFO - Epoch 23 finished. Avg Loss: 0.9960
+2025-09-29 14:45:24,054 - DiT_Trainer - INFO - --- Epoch 24/50 ---
+2025-09-29 14:47:21,867 - DiT_Trainer - INFO - Epoch 24 finished. Avg Loss: 0.9968
+2025-09-29 14:47:21,868 - DiT_Trainer - INFO - --- Epoch 25/50 ---

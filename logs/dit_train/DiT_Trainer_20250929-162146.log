@@ -1,0 +1,46 @@
+2025-09-29 16:21:46,277 - DiT_Trainer - INFO - Starting training on device: mps
+2025-09-29 16:21:46,277 - DiT_Trainer - INFO - Configuration: Epochs=20, BatchSize=8, LR=1e-05
+2025-09-29 16:21:46,371 - DiT_Trainer - INFO - Starting full CFG training run for 20 epochs.
+2025-09-29 16:21:46,371 - DiT_Trainer - INFO - --- Epoch 1/20 ---
+2025-09-29 16:23:08,417 - DiT_Trainer - INFO - Epoch 1 finished. Avg Loss: 1.1542 | Current LR: 9.944598e-06
+2025-09-29 16:23:08,419 - DiT_Trainer - INFO - --- Epoch 2/20 ---
+2025-09-29 16:24:21,747 - DiT_Trainer - INFO - Epoch 2 finished. Avg Loss: 1.1134 | Current LR: 9.779754e-06
+2025-09-29 16:24:21,748 - DiT_Trainer - INFO - --- Epoch 3/20 ---
+2025-09-29 16:25:36,183 - DiT_Trainer - INFO - Epoch 3 finished. Avg Loss: 1.0826 | Current LR: 9.509529e-06
+2025-09-29 16:25:36,184 - DiT_Trainer - INFO - --- Epoch 4/20 ---
+2025-09-29 16:26:47,968 - DiT_Trainer - INFO - Epoch 4 finished. Avg Loss: 1.0608 | Current LR: 9.140576e-06
+2025-09-29 16:26:47,969 - DiT_Trainer - INFO - --- Epoch 5/20 ---
+2025-09-29 16:27:59,457 - DiT_Trainer - INFO - Epoch 5 finished. Avg Loss: 1.0475 | Current LR: 8.681981e-06
+2025-09-29 16:27:59,459 - DiT_Trainer - INFO - --- Epoch 6/20 ---
+2025-09-29 16:29:12,964 - DiT_Trainer - INFO - Epoch 6 finished. Avg Loss: 1.0377 | Current LR: 8.145034e-06
+2025-09-29 16:29:12,965 - DiT_Trainer - INFO - --- Epoch 7/20 ---
+2025-09-29 16:30:27,265 - DiT_Trainer - INFO - Epoch 7 finished. Avg Loss: 1.0313 | Current LR: 7.542957e-06
+2025-09-29 16:30:27,266 - DiT_Trainer - INFO - --- Epoch 8/20 ---
+2025-09-29 16:31:38,708 - DiT_Trainer - INFO - Epoch 8 finished. Avg Loss: 1.0268 | Current LR: 6.890576e-06
+2025-09-29 16:31:38,709 - DiT_Trainer - INFO - --- Epoch 9/20 ---
+2025-09-29 16:32:50,505 - DiT_Trainer - INFO - Epoch 9 finished. Avg Loss: 1.0241 | Current LR: 6.203955e-06
+2025-09-29 16:32:50,506 - DiT_Trainer - INFO - --- Epoch 10/20 ---
+2025-09-29 16:34:01,849 - DiT_Trainer - INFO - Epoch 10 finished. Avg Loss: 1.0206 | Current LR: 5.500000e-06
+2025-09-29 16:34:01,925 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_10.pt
+2025-09-29 16:34:01,925 - DiT_Trainer - INFO - --- Epoch 11/20 ---
+2025-09-29 16:35:14,126 - DiT_Trainer - INFO - Epoch 11 finished. Avg Loss: 1.0182 | Current LR: 4.796045e-06
+2025-09-29 16:35:14,127 - DiT_Trainer - INFO - --- Epoch 12/20 ---
+2025-09-29 16:36:25,102 - DiT_Trainer - INFO - Epoch 12 finished. Avg Loss: 1.0166 | Current LR: 4.109424e-06
+2025-09-29 16:36:25,103 - DiT_Trainer - INFO - --- Epoch 13/20 ---
+2025-09-29 16:37:36,439 - DiT_Trainer - INFO - Epoch 13 finished. Avg Loss: 1.0151 | Current LR: 3.457043e-06
+2025-09-29 16:37:36,439 - DiT_Trainer - INFO - --- Epoch 14/20 ---
+2025-09-29 16:38:47,325 - DiT_Trainer - INFO - Epoch 14 finished. Avg Loss: 1.0141 | Current LR: 2.854966e-06
+2025-09-29 16:38:47,326 - DiT_Trainer - INFO - --- Epoch 15/20 ---
+2025-09-29 16:39:59,187 - DiT_Trainer - INFO - Epoch 15 finished. Avg Loss: 1.0135 | Current LR: 2.318019e-06
+2025-09-29 16:39:59,188 - DiT_Trainer - INFO - --- Epoch 16/20 ---
+2025-09-29 16:41:11,044 - DiT_Trainer - INFO - Epoch 16 finished. Avg Loss: 1.0125 | Current LR: 1.859424e-06
+2025-09-29 16:41:11,045 - DiT_Trainer - INFO - --- Epoch 17/20 ---
+2025-09-29 16:42:22,317 - DiT_Trainer - INFO - Epoch 17 finished. Avg Loss: 1.0128 | Current LR: 1.490471e-06
+2025-09-29 16:42:22,319 - DiT_Trainer - INFO - --- Epoch 18/20 ---
+2025-09-29 16:43:35,816 - DiT_Trainer - INFO - Epoch 18 finished. Avg Loss: 1.0119 | Current LR: 1.220246e-06
+2025-09-29 16:43:35,817 - DiT_Trainer - INFO - --- Epoch 19/20 ---
+2025-09-29 16:44:47,429 - DiT_Trainer - INFO - Epoch 19 finished. Avg Loss: 1.0119 | Current LR: 1.055402e-06
+2025-09-29 16:44:47,430 - DiT_Trainer - INFO - --- Epoch 20/20 ---
+2025-09-29 16:46:10,989 - DiT_Trainer - INFO - Epoch 20 finished. Avg Loss: 1.0114 | Current LR: 1.000000e-06
+2025-09-29 16:46:11,080 - DiT_Trainer - INFO - Checkpoint saved to ./checkpoints/dit_ckpt_epoch_20.pt
+2025-09-29 16:46:11,080 - DiT_Trainer - INFO - Training complete.
