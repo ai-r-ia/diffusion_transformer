@@ -1,33 +1,46 @@
-# Implementation for Diffusion-Transformer
+# Diffusion Transformer (DiT) — PyTorch Implementation & Experiments
 
-Diffusion Transformer (DiT) implementation for image generation based on the tasks given in Assignment-Diffusion-PA.pdf
-Please find task specific code in the following files: 
+This repository contains a full PyTorch implementation of the Diffusion Transformer (DiT) architecture introduced in DiT: Diffusion Transformers for Image Generation (Peebles & Xie, 2022).
+The project includes:
 
-Task 1: 
-    --utils/modules.py
-    --utils/schedulers.py
+## Core Components
 
-Task 2:
-    --models/dit.py
-    --utils/modules.py
+ - Forward diffusion process
+ - Noise schedulers (linear, cosine)
+ - Sinusoidal timestep embeddings
+ - Image patchification & sequence representation
+ - Modular DiT blocks (attention, FFN, layer norms)
 
-Task 3:
-    --train/train_script.py
-    --utils/loss_visualizer.py
+## Training
 
-Task 4:
-    --train/sample.py
-    --train/make_grid.py
+ - Full DDPM-style training loop
+ - Configurable hyperparameters (depth, patch size, timesteps)
+ - Training curves + logging utilities
+ - FID scoring pipeline
 
-Task 5:
-    --train/train_script.py
-    --train/sample.py
+## Sampling
 
-Additionally, please find a report in the following document: DiT_report.pdf
-Loss curve can be found in: training_loss_trend.png
-100 image grid for different time step progression is available at: DDIM_Progression_Grid_10x10.png
+ - DDIM sampling
+ - Reverse diffusion visualization
+ - Global 10×10 grids showing progression over timesteps
+ - Classifier-free guidance (CFG) with scale sensitivity analysis
 
-for running the code please use the following commands (check config.py for additional config options):
+## Experiments
+
+ - Impact of number of timesteps (T=100, 500, 1000)
+ - Impact of DiT depth (4, 6, 8 blocks)
+ - Attention head ablations
+ - CFG sensitivity (w = 0 → 10)
+
+## Artifacts Included
+
+ - Training loss curves - training_loss_trend.png
+ - Sampling progression grids -  DDIM_Progression_Grid_10x10.png
+ - Report summarizing architecture decisions, challenges, and observations - DiT_report.pdf
+ - FID comparisons for major configurations
+
+
+## Usage (check config.py for additional config options):
 
 Training:
 python train/train_script.py \
